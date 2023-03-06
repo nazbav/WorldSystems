@@ -98,5 +98,37 @@ namespace WorldSystems.BioSystems.LiveOrganizm
         /// * регуляторная функция - согласует работу синтетическоо аппарата и энергетических органелл, контролирует обмен вещ-в
         /// </summary>
          void RegulatoryFunc();
+
+
+
+
+        //TODO: Убрать вторую классификацию.  
+
+        /// <summary>
+        /// Нужно кушать и т.д.
+        /// </summary>
+        /// <param name="food"></param>
+        /// <returns></returns>
+       // string metabolism(string food);
+
+        /// <summary>
+        /// Бог сказал плодиться
+        /// </summary>
+       // void self_reproduction();
+
+        /// <summary>
+        /// Развивается пацаны
+        /// </summary>
+      //  void improvement();
+
+        /// <summary>
+        /// Необходимость в обработке информации (хранении передачи)
+        /// </summary>
+      //  void InformationProcessing();
+
+        /// <summary>
+        /// Стремление\способы выживания
+        /// </summary>
+      //  void DesireToSurvive();
     }
 }

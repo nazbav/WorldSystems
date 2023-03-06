@@ -17,6 +17,17 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="EconomicSystems\Property\Private\Feudal\" />
+    <Folder Include="EconomicSystems\Property\Private\Capitalist\" />
+    <Folder Include="EconomicSystems\Property\Private\Slavery\" />
+    <Folder Include="EconomicSystems\Property\Public\Communist\" />
+    <Folder Include="EconomicSystems\Archaic\" />
+    <Folder Include="EticsSystesm\Autoritet\Irracional\Autoritarian\" />
+    <Folder Include="EticsSystesm\Autoritet\Racional\" />
+    <Folder Include="EticsSystesm\Autoritet\Irracional\" />
+    <Folder Include="EticsSystesm\Autoritet\Racional\Humanitarian\" />
+    <Folder Include="LaguageSystems\Latin\" />
+    <Folder Include="RelignSystems\Provoslavie\" />
     <Folder Include="Sandbox\" />
     <Folder Include="TechnoSystems\" />
   </ItemGroup>

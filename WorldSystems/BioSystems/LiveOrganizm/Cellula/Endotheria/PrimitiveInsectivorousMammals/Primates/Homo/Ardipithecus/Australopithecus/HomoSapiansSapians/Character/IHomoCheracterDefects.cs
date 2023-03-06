@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character
+namespace WorldSystems.BioSystems.LiveOrganizm.Cellula.Endotheria.PrimitiveInsectivorousMammals.Primates.Homo.Ardipithecus.Australopithecus.HomoSapiansSapians.Character
 {
     public interface IHomoCheracterDefects
     {
