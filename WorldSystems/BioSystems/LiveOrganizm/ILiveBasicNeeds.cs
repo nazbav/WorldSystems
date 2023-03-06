@@ -6,7 +6,7 @@ using System.Text;
 
 namespace WorldSystems.BioSystems.LiveOrganizm
 {
-    public interface INeeds
+    public interface ILiveBasicNeeds
     {
         float WarterLevel { get; set; }
         float OxygenLevel { get; set; }

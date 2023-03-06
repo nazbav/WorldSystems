@@ -1,34 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="WorldSystems.BioSystems.LiveOrganizm.Cellula">
-    <Position X="1" Y="8" Width="1.5" />
+  <Class Name="WorldSystems.BioSystems.LiveOrganizm.ACellula" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.5" Y="4.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAgAAAIQCACAAgAQAIoykABAIAghDACBIAKgABE=</HashCode>
-      <FileName>BioSystems\LiveOrganizm\Cellula.cs</FileName>
+      <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAACAAAA=</HashCode>
+      <FileName>BioSystems\LiveOrganizm\ACellula.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm">
+    <Position X="7.75" Y="6.25" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.TypeMetabolismAndEnergy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.MethodSelfReproduction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Homeostasis" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Growth" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Development" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Irritability" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Heredity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ALiveOrganizm.Variability" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAIIQAAACAAAABAAAAAIAABA=</HashCode>
+      <FileName>BioSystems\LiveOrganizm\ALiveOrganizm.cs</FileName>
     </TypeIdentifier>
     <Lollipop Position="0.2" />
   </Class>
-  <Interface Name="WorldSystems.BioSystems.LiveOrganizm.INeeds">
-    <Position X="2" Y="5.75" Width="1.5" />
+  <Interface Name="WorldSystems.BioSystems.LiveOrganizm.ILiveBasicNeeds" Collapsed="true">
+    <Position X="11.75" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAACAAACAAAA=</HashCode>
-      <FileName>BioSystems\LiveOrganizm\Needs.cs</FileName>
+      <FileName>BioSystems\LiveOrganizm\ILiveBasicNeeds.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Interface Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm">
-    <Position X="5.5" Y="5.75" Width="1.5" />
+    <Position X="13.5" Y="5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Nested Types" Collapsed="false" />
+    </Compartments>
+    <NestedTypes>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.TypeMetabolismAndEnergy" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.MethodSelfReproduction" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Homeostasis" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Growth" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Development" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Irritability" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Heredity" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+      <Enum Name="WorldSystems.BioSystems.LiveOrganizm.ILiveOrganizm.Variability" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAQAACAAAAQAIISgAAAIAgBDAAAAAIAABE=</HashCode>
+      <HashCode>AAAAAAAAAAAAAAAAAAAQAIIQAAAAAAAABAAAAAIAABA=</HashCode>
       <FileName>BioSystems\LiveOrganizm\ILiveOrganizm.cs</FileName>
       <NewMemberFileName>BioSystems\LiveOrganizm\iLiveOrganizm.cs</NewMemberFileName>
     </TypeIdentifier>
   </Interface>
-  <Interface Name="WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character.IDefects">
-    <Position X="3.75" Y="5.75" Width="1.5" />
+  <Interface Name="WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character.IHomoCheracterDefects" Collapsed="true">
+    <Position X="7.25" Y="4.75" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAgAAAAACAAAAgAAAAggEABAAAAgAAABIAAgAAA=</HashCode>
-      <FileName>BioSystems\LiveOrganizm\Homo\HomoSapiansSapians\Character\IDefects.cs</FileName>
-      <NewMemberFileName>BioSystems\LiveOrganizm\Homo\HomoSapiansSapians\Character\iDefects.cs</NewMemberFileName>
+      <FileName>BioSystems\LiveOrganizm\Homo\HomoSapiansSapians\Character\IHomoCheracterDefects.cs</FileName>
     </TypeIdentifier>
   </Interface>
   <Font Name="Segoe UI" Size="9" />
