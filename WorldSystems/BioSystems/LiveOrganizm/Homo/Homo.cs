@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character;
 
-namespace WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians
+namespace WorldSystems.BioSystems.LiveOrganizm.Homo
 {
-    public abstract class HomoSapiansSapians : Homo
+    public abstract class Homo : Cellula
     {
         public Enum СhemicalСomposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public Enum StructuralOrganization { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
@@ -61,5 +61,6 @@ namespace WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians
         {
             throw new NotImplementedException();
         }
+
     }
 }

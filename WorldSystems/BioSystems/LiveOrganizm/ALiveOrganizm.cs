@@ -6,20 +6,9 @@ using System.Text;
 
 namespace WorldSystems.BioSystems.LiveOrganizm
 {
-    public interface ILiveOrganizm
+    public abstract class ALiveOrganizm : ILiveOrganizm
     {
 
-
-        // <summary>
-        // Химический состав
-        // </summary>
-        // <remarks>Единство химического состава.</remarks>
-        //  enum СhemicalСomposition { };
-        // <summary>
-        // Структурная организация
-        // </summary>
-        // <remarks>Единство структурной организации.</remarks>
-        // enum StructuralOrganization { };
         /// <summary>
         /// Тип метоболизма и обмена энергией
         /// </summary>
@@ -31,17 +20,35 @@ namespace WorldSystems.BioSystems.LiveOrganizm
         /// Open
         /// Close
         /// </value>
-        enum TypeMetabolismAndEnergy {  }
+        enum TypeMetabolismAndEnergy { 
+            Open,
+            Close
+        }
+
         /// <summary>
         /// Метод репродукции
         /// </summary>
-        /// <remarks>Самовоспроизведение.</remarks>
-        enum MethodSelfReproduction {  }
+        /// <remarks>
+        /// Самовоспроизведение.
+        /// - митоз, или непрямое деление (характерное для большинства клеток);
+        /// - амитоз, или прямое деление клеток;
+        /// - мейоз, или редукционное деление (при образовании половых клеток);
+        /// - эндорепродукция (образование полиплоидных и многоядерных клеток).
+        /// </remarks>
+        enum MethodSelfReproduction {
+            mitosis,
+            amitosis,
+            meiosis,
+            endoreproduction
+        }
         /// <summary>
         /// Гомеостаз
         /// </summary>
         /// <remarks>Саморегуляция.</remarks>
-        enum Homeostasis {  }
+        enum Homeostasis {
+            Regulatory,
+            Conformational
+        }
         /// <summary>
         /// Рост
         /// </summary>
@@ -67,36 +74,35 @@ namespace WorldSystems.BioSystems.LiveOrganizm
         /// <summary>
         /// Уровень разрушения (старение + столкновения + и т.д.)
         /// </summary>
-
-        /// <summary>
-        /// Уровень разрушения (старение + столкновения + и т.д.)
-        /// </summary>
-        float Entropy { get; set; }
+        float entropy;
+        public float Entropy { get => entropy; set => entropy = value; }
 
         /// <summary>
         /// * синтетическая или пластическая – строительство тела, белки-ферменты
         /// </summary>
-        void SyntheticOrPlasticFunc();
+        public abstract void SyntheticOrPlasticFunc();
         /// <summary>
         /// * энергетическая – все внутриклеточные процесы идут с затратой энергии, основным поставщиком энергии в клетке являются митохондрии
         /// </summary>
-         void EnergyFunc();
+        public abstract void EnergyFunc();
         /// <summary>
         /// * метаболизм или обмен вещ-в – физиологические процессы. Питание через эндоцитоз (пиноцитоз и фагоцитоз)
         /// </summary>
-         void MetabolismFunc();
+        public abstract void MetabolismFunc();
         /// <summary>
         /// * барьерно-рецепторная. На плазмолемме локализованы спец структуры, участвующие в узнавании хим и физ факторов, обладает большим набором рецепторов – чувствительные участки
         /// </summary>
         /// <remarks></remarks>
-         void BarrierReceptor();
+        public abstract void BarrierReceptor();
         /// <summary>
         /// * транспортная – пассивный перенос ряда веществ, активный перенос с затратой энергии.
         /// </summary>
-         void TransportFunc();
+        public abstract void TransportFunc();
         /// <summary>
         /// * регуляторная функция - согласует работу синтетическоо аппарата и энергетических органелл, контролирует обмен вещ-в
         /// </summary>
-         void RegulatoryFunc();
+        public abstract void RegulatoryFunc();
+
+     
     }
 }

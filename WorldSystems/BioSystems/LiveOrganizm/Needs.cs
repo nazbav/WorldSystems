@@ -11,7 +11,6 @@ namespace WorldSystems.BioSystems.LiveOrganizm
         float WarterLevel { get; set; }
         float OxygenLevel { get; set; }
         float hungerLevel { get; set; }
-     
 
     }
 }

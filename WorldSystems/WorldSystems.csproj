@@ -1,4 +1,4 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -8,10 +8,17 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EcoSystems\Новая папка1\" />
-    <Folder Include="EcoSystems\Новая папка\" />
-    <Folder Include="TechnoSystems\Sandbox\" />
+    <Compile Remove="EcoSystems\**" />
+    <Compile Remove="TechnoSystems\Sandbox\**" />
+    <EmbeddedResource Remove="EcoSystems\**" />
+    <EmbeddedResource Remove="TechnoSystems\Sandbox\**" />
+    <None Remove="EcoSystems\**" />
+    <None Remove="TechnoSystems\Sandbox\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Folder Include="Sandbox\" />
+    <Folder Include="TechnoSystems\" />
   </ItemGroup>
 
 </Project>
