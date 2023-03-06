@@ -6,7 +6,7 @@ using WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character;
 
 namespace WorldSystems.BioSystems.LiveOrganizm
 {
-    public abstract class Cellula : ALiveOrganizm, ILiveBasicNeeds
+    public abstract class ACellula : ALiveOrganizm, ILiveBasicNeeds
     {
         public float WarterLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public float OxygenLevel { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }

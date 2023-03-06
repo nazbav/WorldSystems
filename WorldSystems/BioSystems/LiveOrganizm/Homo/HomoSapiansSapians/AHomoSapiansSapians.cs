@@ -6,7 +6,7 @@ using WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character;
 
 namespace WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians
 {
-    public abstract class HomoSapiansSapians : Homo
+    public abstract class AHomoSapiansSapians : AHomo
     {
         public Enum СhemicalСomposition { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }
         public Enum StructuralOrganization { get => throw new NotImplementedException(); set => throw new NotImplementedException(); }

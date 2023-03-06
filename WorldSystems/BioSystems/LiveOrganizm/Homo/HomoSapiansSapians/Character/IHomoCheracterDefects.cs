@@ -5,7 +5,7 @@ using System.Text;
 
 namespace WorldSystems.BioSystems.LiveOrganizm.Homo.HomoSapiansSapians.Character
 {
-    public interface IDefects
+    public interface IHomoCheracterDefects
     {
         /// <summary>
         /// Эгоцентризм
