@@ -104,7 +104,7 @@ namespace WorldSystems.BioSystems.LiveOrganizm.Cellula
         abstract public void Consumption();
 
         /// <summary>
-        /// Чтобы выжить нукжно потреблять
+        /// Чтобы выжить необходимо потреблять (открытая система -- питательные элементы в основном, поступают из внешней среды)
         /// </summary>
         new void DesireToSurvive() => Consumption();
 
