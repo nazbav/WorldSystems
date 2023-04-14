@@ -64,9 +64,6 @@ namespace WorldSystems.BioSystems.LiveOrganizm
         /// </summary>
         /// <remarks>Наследственность и изменчивость.</remarks>
         enum Variability {  }
-        /// <summary>
-        /// Уровень разрушения (старение + столкновения + и т.д.)
-        /// </summary>
 
         /// <summary>
         /// Уровень разрушения (старение + столкновения + и т.д.)
