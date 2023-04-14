@@ -89,7 +89,7 @@ namespace WorldSystems.BioSystems.LiveOrganizm.Cellula
         }
 
         /// <summary>
-        /// Стремление\способы выживания
+        /// Стремление\способы выживания (страктегтя и стремление к выживанию определяется потребляемой информацтей, усвоенными в ходе эволюции методами обработки информации и т.д.
         /// </summary>
         public void DesireToSurvive() => InformationProcessing();
 
