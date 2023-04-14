@@ -93,5 +93,20 @@ namespace WorldSystems.BioSystems.LiveOrganizm.Cellula
         /// </summary>
         public void DesireToSurvive() => InformationProcessing();
 
+/// <summary>
+        /// Доминирование
+        /// </summary>
+        abstract public void Dominance();
+
+        /// <summary>
+        /// Потребление
+        /// </summary>
+        abstract public void Consumption();
+
+        /// <summary>
+        /// Чтобы выжить нукжно потреблять
+        /// </summary>
+        new void DesireToSurvive() => Consumption();
+
     }
 }
